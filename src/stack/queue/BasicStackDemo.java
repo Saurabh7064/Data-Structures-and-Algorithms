@@ -46,6 +46,7 @@ public class BasicStackDemo {
 	stack.push(91);
 	stack.push(32);
  	System.out.println("Is stack full? "+stack.isFull());
+ 	System.out.println("Top Element "+stack.peek());
  	while(!stack.isEmpty()){
  		
  		System.out.print(stack.pop());
